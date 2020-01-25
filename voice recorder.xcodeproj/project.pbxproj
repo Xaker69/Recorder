@@ -3,27 +3,33 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		2C3CB3B223D4EBC90018EF15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3CB3B123D4EBC80018EF15 /* AppDelegate.swift */; };
-		2C3CB3B423D4EBC90018EF15 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3CB3B323D4EBC90018EF15 /* SceneDelegate.swift */; };
 		2C3CB3B623D4EBC90018EF15 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3CB3B523D4EBC90018EF15 /* ViewController.swift */; };
-		2C3CB3B923D4EBC90018EF15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C3CB3B723D4EBC90018EF15 /* Main.storyboard */; };
 		2C3CB3BB23D4EBCD0018EF15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C3CB3BA23D4EBCD0018EF15 /* Assets.xcassets */; };
-		2C3CB3BE23D4EBCD0018EF15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C3CB3BC23D4EBCD0018EF15 /* LaunchScreen.storyboard */; };
+		2C3CB3C623D524090018EF15 /* UIButton+touches.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3CB3C523D524090018EF15 /* UIButton+touches.swift */; };
+		2CEE53CF23D9E498002F53E5 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEE53CE23D9E498002F53E5 /* ViewModel.swift */; };
+		2CEE53D123DA6802002F53E5 /* UIColor+hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEE53D023DA6802002F53E5 /* UIColor+hex.swift */; };
+		2CEE53D323DC2482002F53E5 /* FileManager+url.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEE53D223DC2482002F53E5 /* FileManager+url.swift */; };
+		8E401E01B9B5898EA185A41F /* Pods_voice_recorder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D44107B3691445874C79292 /* Pods_voice_recorder.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1519AAFE797C1667C5634233 /* Pods-voice recorder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-voice recorder.debug.xcconfig"; path = "Target Support Files/Pods-voice recorder/Pods-voice recorder.debug.xcconfig"; sourceTree = "<group>"; };
 		2C3CB3AE23D4EBC80018EF15 /* voice recorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "voice recorder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C3CB3B123D4EBC80018EF15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2C3CB3B323D4EBC90018EF15 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		2C3CB3B523D4EBC90018EF15 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2C3CB3B823D4EBC90018EF15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2C3CB3BA23D4EBCD0018EF15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2C3CB3BD23D4EBCD0018EF15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C3CB3BF23D4EBCD0018EF15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C3CB3C523D524090018EF15 /* UIButton+touches.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+touches.swift"; sourceTree = "<group>"; };
+		2CEE53CE23D9E498002F53E5 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		2CEE53D023DA6802002F53E5 /* UIColor+hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+hex.swift"; sourceTree = "<group>"; };
+		2CEE53D223DC2482002F53E5 /* FileManager+url.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager+url.swift"; sourceTree = "<group>"; };
+		3D44107B3691445874C79292 /* Pods_voice_recorder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_voice_recorder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8718E775B7DE9A8FF7633138 /* Pods-voice recorder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-voice recorder.release.xcconfig"; path = "Target Support Files/Pods-voice recorder/Pods-voice recorder.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E401E01B9B5898EA185A41F /* Pods_voice_recorder.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +49,8 @@
 			children = (
 				2C3CB3B023D4EBC80018EF15 /* voice recorder */,
 				2C3CB3AF23D4EBC80018EF15 /* Products */,
+				47F4AC4DF7BEAC094497239C /* Pods */,
+				EB8F8428230430B73D4BE314 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +66,32 @@
 			isa = PBXGroup;
 			children = (
 				2C3CB3B123D4EBC80018EF15 /* AppDelegate.swift */,
-				2C3CB3B323D4EBC90018EF15 /* SceneDelegate.swift */,
 				2C3CB3B523D4EBC90018EF15 /* ViewController.swift */,
-				2C3CB3B723D4EBC90018EF15 /* Main.storyboard */,
+				2CEE53CE23D9E498002F53E5 /* ViewModel.swift */,
+				2C3CB3C523D524090018EF15 /* UIButton+touches.swift */,
+				2CEE53D023DA6802002F53E5 /* UIColor+hex.swift */,
+				2CEE53D223DC2482002F53E5 /* FileManager+url.swift */,
 				2C3CB3BA23D4EBCD0018EF15 /* Assets.xcassets */,
-				2C3CB3BC23D4EBCD0018EF15 /* LaunchScreen.storyboard */,
 				2C3CB3BF23D4EBCD0018EF15 /* Info.plist */,
 			);
 			path = "voice recorder";
+			sourceTree = "<group>";
+		};
+		47F4AC4DF7BEAC094497239C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1519AAFE797C1667C5634233 /* Pods-voice recorder.debug.xcconfig */,
+				8718E775B7DE9A8FF7633138 /* Pods-voice recorder.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EB8F8428230430B73D4BE314 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D44107B3691445874C79292 /* Pods_voice_recorder.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C3CB3C223D4EBCD0018EF15 /* Build configuration list for PBXNativeTarget "voice recorder" */;
 			buildPhases = (
+				B7BC686E8EFAF1BABA59F7F3 /* [CP] Check Pods Manifest.lock */,
 				2C3CB3AA23D4EBC80018EF15 /* Sources */,
 				2C3CB3AB23D4EBC80018EF15 /* Frameworks */,
 				2C3CB3AC23D4EBC80018EF15 /* Resources */,
+				D5DFFF57088EEB4B9ADB7A6F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,13 +154,53 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C3CB3BE23D4EBCD0018EF15 /* LaunchScreen.storyboard in Resources */,
 				2C3CB3BB23D4EBCD0018EF15 /* Assets.xcassets in Resources */,
-				2C3CB3B923D4EBC90018EF15 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B7BC686E8EFAF1BABA59F7F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-voice recorder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5DFFF57088EEB4B9ADB7A6F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-voice recorder/Pods-voice recorder-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-voice recorder/Pods-voice recorder-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-voice recorder/Pods-voice recorder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2C3CB3AA23D4EBC80018EF15 /* Sources */ = {
@@ -139,31 +208,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C3CB3B623D4EBC90018EF15 /* ViewController.swift in Sources */,
+				2CEE53D323DC2482002F53E5 /* FileManager+url.swift in Sources */,
 				2C3CB3B223D4EBC90018EF15 /* AppDelegate.swift in Sources */,
-				2C3CB3B423D4EBC90018EF15 /* SceneDelegate.swift in Sources */,
+				2CEE53D123DA6802002F53E5 /* UIColor+hex.swift in Sources */,
+				2CEE53CF23D9E498002F53E5 /* ViewModel.swift in Sources */,
+				2C3CB3C623D524090018EF15 /* UIButton+touches.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		2C3CB3B723D4EBC90018EF15 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2C3CB3B823D4EBC90018EF15 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		2C3CB3BC23D4EBCD0018EF15 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2C3CB3BD23D4EBCD0018EF15 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		2C3CB3C023D4EBCD0018EF15 /* Debug */ = {
@@ -282,11 +335,13 @@
 		};
 		2C3CB3C323D4EBCD0018EF15 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1519AAFE797C1667C5634233 /* Pods-voice recorder.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UNTB3999U3;
 				INFOPLIST_FILE = "voice recorder/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -294,17 +349,19 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Xak.ink.voice-recorder";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		2C3CB3C423D4EBCD0018EF15 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8718E775B7DE9A8FF7633138 /* Pods-voice recorder.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UNTB3999U3;
 				INFOPLIST_FILE = "voice recorder/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,7 +369,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Xak.ink.voice-recorder";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
